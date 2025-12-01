@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/digitalShop/static/css/main.f74a867a.css",
-    "main.js": "/digitalShop/static/js/main.7aaa9658.js",
+    "main.js": "/digitalShop/static/js/main.93c7c658.js",
     "service-worker.js": "/digitalShop/service-worker.js",
     "static/media/IRANSansX-Regular.woff": "/digitalShop/static/media/IRANSansX-Regular.0e69b53f502a0a73887d.woff",
     "static/media/bg-subcribeform.jpg": "/digitalShop/static/media/bg-subcribeform.1359c411da61fa532359.jpg",
@@ -11,10 +11,10 @@
     "static/media/slick.woff": "/digitalShop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/digitalShop/index.html",
     "main.f74a867a.css.map": "/digitalShop/static/css/main.f74a867a.css.map",
-    "main.7aaa9658.js.map": "/digitalShop/static/js/main.7aaa9658.js.map"
+    "main.93c7c658.js.map": "/digitalShop/static/js/main.93c7c658.js.map"
   },
   "entrypoints": [
     "static/css/main.f74a867a.css",
-    "static/js/main.7aaa9658.js"
+    "static/js/main.93c7c658.js"
   ]
 }
