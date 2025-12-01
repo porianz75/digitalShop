@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/digitalShop/static/css/main.f74a867a.css",
+    "main.js": "/digitalShop/static/js/main.82cf788e.js",
+    "service-worker.js": "/digitalShop/service-worker.js",
+    "static/media/IRANSansX-Regular.woff": "/digitalShop/static/media/IRANSansX-Regular.0e69b53f502a0a73887d.woff",
+    "static/media/bg-subcribeform.jpg": "/digitalShop/static/media/bg-subcribeform.1359c411da61fa532359.jpg",
+    "static/media/slick.svg": "/digitalShop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/digitalShop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/digitalShop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/digitalShop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/digitalShop/index.html",
+    "main.f74a867a.css.map": "/digitalShop/static/css/main.f74a867a.css.map",
+    "main.82cf788e.js.map": "/digitalShop/static/js/main.82cf788e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f74a867a.css",
+    "static/js/main.82cf788e.js"
+  ]
+}
