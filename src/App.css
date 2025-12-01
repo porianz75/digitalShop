@@ -1,0 +1,84 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+@font-face {
+    font-family: "IRANsansX";
+    src: url("./fonts/woff/IRANSansX-Regular.woff") format("woff");
+
+}
+
+
+html, body {
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IRANsansX";
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
+button, a {
+    cursor: pointer;
+}
+button{
+    border: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+::selection{
+    color: white;
+    background-color: #F82C15;
+}
+.container {
+    padding-right: 16px!important;
+    padding-left: 16px!important;
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-right: 40px!important;
+        padding-left: 40px!important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1480px !important;
+        padding-right: 6px !important;
+        padding-left: 6px !important;
+    }
+}
+
+
+.position-relative{
+    position: relative;
+}
+
+.errorBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.errorMessage{
+    color: #b30000;
+}

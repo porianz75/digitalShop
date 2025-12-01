@@ -1,0 +1,21 @@
+.breadCrumb{
+    margin-bottom: 30px;
+    padding-block: 8px;
+}
+.breadCrumbList{
+    display: flex;
+    align-items: center;
+}
+.breadCrumbListItem:not(:last-child){
+    color: #653e3e;
+    font-size: 14px;
+    margin-inline-end: 8px;
+}
+.breadCrumbListItem > :last-child {
+    margin-inline-start: 3px;
+    vertical-align: middle;
+}
+
+.breadCrumbListItem:last-child{
+    color: #888789;
+}

@@ -1,0 +1,28 @@
+
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.slide{
+    padding-inline:6px;
+    direction: rtl;
+}
+.sliderController{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nextBtn, .prevBtn{
+    background-color: transparent;
+    font-size: 28px;
+
+}
+@media (min-width: 576px){
+    .title{
+        font-size: 28px;
+    }
+}

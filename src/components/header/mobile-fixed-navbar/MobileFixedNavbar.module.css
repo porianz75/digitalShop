@@ -1,0 +1,68 @@
+
+.containerMenu {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerMenu li {
+    border-left: 1px solid #E8E8E8;
+    flex: 1;
+    padding: 10px 0;
+
+}
+
+.containerMenu li:last-child {
+    border: 0;
+}
+
+.shop {
+    text-align: center;
+}
+
+.shopIcon {
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.shopTitle {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.mobileSearch {
+    text-align: center;
+    cursor: pointer;
+}
+
+.searchIcon {
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.mobileSearch p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.searchContainer {
+    max-width: 250px;
+    width: 100%;
+}
+
+@media (min-width: 400px) {
+    .searchContainer {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerMenu {
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+.singleProductInformation{
+    margin: 40px 0 40px 0 ;
+}
+
+.tabContainer{
+    display: flex;
+    border-bottom: 1px solid #e2e5eb;
+    margin-bottom: 25px;
+    padding-bottom: 18px;
+
+}
+.tabContainer > li{
+    margin-inline-end: 28px;
+    color: #6a7285;
+    opacity: 0.6;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+.tabContainer > li:after{
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    height: 3px;
+    width: 0;
+background-color: #dd2955;
+    transition: 0.3s;
+}
+
+.activeTabItem:after,
+.tabContainer > li:hover:after{
+    width:100% !important;
+}
+.activeTabItem,
+.tabContainer > li:hover{
+    opacity: 1!important;
+    color: #13172b!important;
+}
+
+.desktopDetailProduct{
+    /*display: none;*/
+}
+
+@media (min-width: 992px) {
+    .desktopDetailProduct{
+        display: block;
+    }
+}

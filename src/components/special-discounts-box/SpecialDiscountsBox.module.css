@@ -1,0 +1,66 @@
+.SpecialDiscountsBox{
+    background-image: linear-gradient(90deg, #7075F1 0%, #A864FF 100%);
+    padding: 16px;
+    border-radius: 12px;
+}
+.DiscountLabel{
+    padding: 10px 16px;
+    background-image: linear-gradient(180deg, #F1592A 0%, #DD2955 100%);
+    border:1px solid #FFFFFF7A;
+    border-radius: 100px;
+    color: white;
+    font-size: 11px;
+}
+
+.sectionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.discountTimer{
+display: flex;
+    align-items: baseline;
+}
+.discountTimer > p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline-end: 3px;
+}
+
+@media (min-width: 576px){
+    .SpecialDiscountsBox{
+        padding: 30px 24px;
+    }
+    .DiscountLabel{
+        font-size: 14px;
+    }
+    .title{
+        font-size: 28px;
+    }
+}
+
+.timerLoading{
+    display: flex;
+    position: relative;
+    top: -15px;
+}
+.timerLoading >*{
+    margin:0 6px;
+}
+
+@media (min-width: 768px){
+    .sectionContainer{
+        flex-direction: row;
+    }
+}

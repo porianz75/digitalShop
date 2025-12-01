@@ -1,0 +1,36 @@
+
+.signInRow, .accountRow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.signInColumn, .accountColumn {
+    text-align: center;
+    cursor: pointer;
+}
+
+.signInRow p, .accountRow p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.accountRow :first-child {
+    font-size: 35px;
+
+}
+
+.signInRow :first-child {
+    font-size: 32px;
+}
+
+.signInColumn p, .accountColumn p {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.signInColumn :first-child, .accountColumn :first-child {
+    font-size: 20px;
+    vertical-align: bottom;
+}

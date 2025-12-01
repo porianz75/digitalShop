@@ -1,0 +1,17 @@
+
+.burgerMenu{
+    font-size: 30px;
+    cursor: pointer;
+    margin-inline-start: 25px;
+}
+@media (min-width: 992px) {
+    .burgerMenu{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .overlay{
+        display: none;
+    }
+}

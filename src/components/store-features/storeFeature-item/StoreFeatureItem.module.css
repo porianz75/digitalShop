@@ -1,0 +1,28 @@
+
+.featureItem{
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.featureItem :first-child{
+    color: #dd2955;
+    font-size: 55px;
+}
+.featureItem h3{
+    font-size: 14px;
+}
+.featureItem p{
+    font-size: 14px;
+    color: #6a7285;
+}
+
+@media (min-width: 768px){
+    .featureItem{
+        text-align: right;
+    }
+}
+@media (min-width: 992px){
+    .featureItem{
+        flex-basis: 25%;
+    }
+}

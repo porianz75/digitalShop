@@ -1,0 +1,30 @@
+.Container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box{
+    margin: 0 3px;
+    text-align: center;
+}
+.box p {
+    color: black;
+}
+.timerAmount{
+    background-color: white;
+    border-radius: 6px;
+    width: 34px;
+    font-size: 18px;
+}
+.timerTitle{
+font-size: 10px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+@media (min-width: 992px){
+    .timerAmount{
+        width: 42px;
+        padding: 6px 0;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,48 @@
+.searchContainer {
+    position: relative;
+
+}
+
+.searchContainer input[type='text'] {
+    border: 1px solid #f3e7ea;
+    outline: 0;
+    padding: 16px 22px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+input[type='text']::placeholder {
+    transition: 1s;
+    opacity: 1;
+}
+
+input[type='text']:focus::placeholder {
+    opacity: 0;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.searchIcon:hover {
+    animation: scale 1s infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1)}
+    50% {
+        transform: scale(1.13);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

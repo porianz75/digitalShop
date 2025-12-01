@@ -1,0 +1,74 @@
+
+.newsletters{
+    background:linear-gradient(#fff 50%, #031424 50%);
+    color: white;
+    text-align: center;
+}
+.bgContainer{
+    background: url(bg-subcribeform.jpg) center no-repeat;
+    background-size: cover;
+    padding-block: 30px;
+    border-radius: 12px;
+}
+.title{
+    font-weight: 590;
+    margin-bottom: 3px;
+}
+.subTitle{
+    margin-bottom: 28px;
+    font-size: 22px;
+}
+.formControl{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    max-width: 580px;
+}
+.formControl input{
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    padding: 3px 8px;
+    transition: 0.4s;
+    font-size: 16px;
+}
+.formControl input:focus{
+    border-color: black;
+}
+.formControl input::placeholder{
+    transition: 0.4s 0.4s;
+    opacity: 1;
+}
+.formControl input:focus::placeholder{
+    opacity: 0;
+}
+.btnSubmit{
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(225deg,#dd2955 0%, #f1592a 100%);
+    color: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+}
+.btnSubmit:hover{
+    background: linear-gradient(225deg, #f1592a 0%, #dd2955 100%);
+}
+@media (min-width:576px) {
+    .title{
+        font-weight: 590;
+    }
+    .subTitle{
+        font-size: 30px;
+    }
+    .bgContainer{
+        padding-block: 60px;
+    }
+}

@@ -1,0 +1,58 @@
+.tabItem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tabItem:last-of-type {
+    border-bottom: 0;
+}
+
+.tabTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabTitle:hover a,.tabTitle:hover span{
+    color: #F1592A;
+}
+
+.BtnCollapse {
+    color: white;
+    background-color: transparent;
+    flex: 1;
+    text-align: left;
+}
+
+.iconCollapse{
+    vertical-align: bottom;
+}
+.collapseContainer{
+    height: 0;
+    overflow: hidden;
+    transition:1s;
+
+}
+.collapseItem{
+    padding-inline-start: 30px;
+}
+.collapseItem li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.collapseItem li:last-child{
+    border-bottom: 0;
+}
+.collapseItem li a,.tabTitle a,.tabTitle span{
+    color: white;
+    padding: 16px 0;
+    display: block;
+}
+.collapseItem li:hover a{
+    color: #F1592A;
+}
+
+.active {
+    color: #DD2955!important;
+}

@@ -1,0 +1,42 @@
+
+.inputWrapper{
+    position: relative;
+}
+.input{
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    outline: 0;
+}
+
+.input:focus{
+    border-color: #008eb2;
+}
+.errorBorder{
+    border-color: #655a5d;
+}
+.endAdornment{
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color:#62666d ;
+}
+
+.label{
+    font-size: 12px;
+    line-height: 21px;
+    color: #62666d;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.errorText{
+    color: red;
+    font-size: 10px;
+    margin-inline-start: 6px;
+    margin-top: 4px;
+}

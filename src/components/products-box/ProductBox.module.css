@@ -1,0 +1,37 @@
+
+.productsBox{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0 4px 32px 0;
+    background-color: white;
+    padding: 16px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.boxHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLink{
+    font-weight: 500;
+    font-size: 16px;
+}
+.headerLink:hover{
+    color: #DD2955;
+}
+.headerLink span:last-child{
+    margin-inline-start: 6px;
+    vertical-align: sub
+}
+@media (min-width: 576px) {
+    .productsBox{
+        padding: 30px 24px;
+    }
+    .title{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,44 @@
+.interestContainerRow , .interestContainerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconContainer{
+    position: relative;
+}
+.interestContainerRow .iconContainer .icon{
+    font-size: 32px;
+    vertical-align: bottom;
+}
+
+.interestContainerColumn .iconContainer .icon{
+    font-size: 20px;
+    vertical-align: bottom;
+}
+.count{
+    color: white;
+    background-color: #DD2955;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -3px;
+    top: -4px;
+}
+.interestContainerColumn .count{
+    width: 16px;
+    height: 16px;
+    right: -5px;
+    top: -4px;
+}
+.interestContainerColumn p {
+    font-size: 10px;
+    font-weight: bold;
+}

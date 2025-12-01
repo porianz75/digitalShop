@@ -1,0 +1,199 @@
+.ScoringSummary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.ScoringSummary > * {
+    flex: 1;
+}
+
+.totalRatingProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.totalRatingProduct p {
+    font-size: 12px;
+}
+
+.progressRatingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.progressRatingItem {
+    display: flex;
+    gap: 8px;
+}
+
+.progress {
+    border: 1px solid #e2e5eb;
+    width: 120px;
+    height: 20px;
+    position: relative;
+}
+
+.progressBar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #dd2955;
+}
+
+.progressPercentage {
+    color: #dd2955;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.commentLinkWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentLinkWrap a {
+    color: #dd2955;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.commentsSection {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.commentsSection > div:first-child {
+    width:100%;
+}
+
+.commentsTitle {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e5eb;
+}
+
+.emptyComments {
+    background-color: #3d9cd2;
+    border-right: 0.6180469716em solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 8px;
+    font-size: 14px;
+}
+
+.commentsList{
+  margin-block: 15px;
+}
+.commentItem{
+    display: flex;
+
+}
+.authorImage{
+    border-radius: 50%;
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+    margin-inline-end: 10px;
+}
+.commentInfo{
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+.authorName{
+    font-weight: bold;
+    margin-inline-end: 4px;
+}
+.commentDate{
+    font-size: 12px;
+}
+.commentText{
+    margin: 10px 0 30px 0;
+    padding: 10px 6px;
+    background-color: #EFF5F8;
+    color: #dd2955;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.commentForm{
+    background-color: #eff5f8;
+    border-radius: 12px;
+    border:1px solid #e2e5eb;
+    padding: 14px 22px;
+    margin-top: 30px;
+}
+
+.commentFormTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #13172b;
+    display: block;
+}
+.commentFormRating{
+    margin-bottom: 16px;
+}
+.commentFormRating h6 ,.commentTextLabel{
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    color:  #13172b;
+    font-weight: 600;
+}
+.commentTextLabel{
+display: block;
+}
+.commentTextInput{
+
+}
+
+@media (min-width: 768px){
+    .authorImage{
+        width: 50px;
+        height: 50px;
+    }
+    .commentInfo{
+        padding-top: 6px;
+    }
+    .commentText{
+        font-size: 14px;
+    }
+    .totalRatingProduct p{
+        font-size: 14px;
+    }
+    .ScoringSummary{
+        flex-direction: row;
+    }
+}
+@media (min-width: 992px){
+
+    .ScoringSummary > *:nth-child(n):not(:last-child) {
+        border-inline-end: 1px solid #e2e5eb;
+    }
+    .commentsSection > div:first-child {
+        width:70%;
+    }
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+.featureTable {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+.featureTable tr, .featureTable td, .featureTable th {
+    padding: 8px;
+}
+
+.featureTable tr {
+    border-bottom: 1px solid #e2e5eb;
+}
+
+.featureTable td {
+    color: #6A7285;
+
+}
+
+@media (min-width: 576px){
+    .featureTable{
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px) {
+    .featureTable, .featureTable td, .featureTable th {
+        border: 1px solid #e2e5eb;
+    }
+
+    .featureTable tr:nth-child(odd) {
+        background-color: #F2F2F2;
+    }
+
+}

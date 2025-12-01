@@ -1,0 +1,109 @@
+.topBar {
+    background-color: #13172B;
+    padding: 12px 0;
+    font-size: 12px;
+}
+.topBarContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.topBarRight {
+    display: flex;
+    list-style-type: none;
+}
+
+.topBarRight li {
+    margin-inline-end: 8px;
+}
+.topBarRight li a{
+    color: white;
+}
+.topBarRight li:hover a{
+    color: #e3332b;
+}
+
+.topBarRight li::before {
+    content: "\2022";
+    color: #6A7285;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-inline-end: 5px;
+    position: relative;
+    left: -5px;
+    top: -2px;
+}
+
+.topBarLeft {
+    display: none;
+}
+
+.btnSelect{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    padding: 2px 7px;
+    position: relative;
+}
+.btnSelect span{
+    margin:0 8px;
+}
+.btnSelect svg{
+    transition: 0.3s;
+}
+.dropDown{
+    position: absolute;
+    background-color: #fffdfd;
+    color: black;
+    right: 0;
+    left: 0;
+    top: 28px;
+    border-radius: 5px;
+    display: none;
+    overflow: hidden;
+    z-index: 999;
+    min-width: max-content;
+    max-width: max-content;
+}
+.active{
+    display: block;
+}
+
+.dropDown li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    padding:5px 5px;
+    border-bottom: 1px solid #e0dcd2;
+}
+.dropDown li:last-child{
+    border-bottom: 0;
+}
+.dropDown li:hover{
+    background-color: #fdf3df;
+}
+.dropDown li img {
+    object-fit: cover;
+    width: 18px;
+    height: 14px;
+    margin-inline-end: 8px;
+}
+
+
+@media (min-width: 576px) {
+    .topBar{
+        padding: 12px 0;
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .topBarLeft{
+        display: block;
+    }
+}

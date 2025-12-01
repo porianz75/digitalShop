@@ -1,0 +1,157 @@
+
+.shoppingBasketRow {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: -6px;
+}
+
+.shoppingBasketColumn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.iconContainer {
+    position: relative;
+}
+
+.shoppingBasketRow .basketIcon {
+    font-size: 32px;
+}
+
+.shoppingBasketColumn .basketIcon {
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+.basketCount {
+    color: white;
+    background-color: #DD2955;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -3px;
+    top: -4px;
+}
+
+.shoppingBasketColumn .basketCount {
+    width: 16px;
+    height: 16px;
+    right: -4px;
+    top: -5px;
+}
+
+.amountTitle {
+    color: #13172B;
+    opacity: 0.5;
+    font-size: 12px;
+    margin-inline-start: 8px;
+
+}
+
+.amountValue {
+    font-size: 14px;
+    font-weight: 700;
+    margin-inline-start: 8px;
+
+}
+
+.titleColumn {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.summaryBasketBoxHeader, .summaryBasketBoxFooter {
+    cursor: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10px;
+}
+
+.summaryBasketBoxHeader p {
+    color: #62666d;
+    font-size: 14px;
+}
+
+.summaryBasketBoxHeader a {
+    color: #19bfd3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.summaryBasketBoxHeader span {
+    margin-inline-end: 4px;
+}
+
+.summaryBasketBoxBody {
+    max-height: 360px;
+    padding: 16px 10px;
+    overflow-y: auto;
+}
+.emptyBasket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emptyBasket img{
+    width: 150px;
+    height: 150px;
+    color: #031424;
+}
+.emptyBasket p{
+    font-weight: bold;
+}
+.SSB_bodyItem {
+    display: flex;
+    border-bottom: 1px solid #f0f0f1;
+    padding-bottom: 12px;
+}
+.SSB_bodyItem:last-child{
+    border: 0;
+    padding-bottom: 0;
+}
+.summaryBasketBoxFooter {
+    border-top: 1px solid #f0f0f1;
+}
+
+.SBB_FooterText p:first-child {
+    color: #81858b;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.SBB_FooterText p:last-child {
+    font-weight: bold;
+}
+
+.SSB_bodyRightSection {
+    margin-inline-end: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.SSB_bodyRightSection img {
+    width: 114px;
+    height: 114px;
+}
+
+.SSB_bodyLeftSection {
+    font-weight: 700;
+    line-height: 2.15;
+}
+.SSB_bodyLeftSection h5{
+    margin-bottom: 16px;
+}

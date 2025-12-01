@@ -1,0 +1,80 @@
+
+.mainFooter{
+    background-color: #031424;
+    padding-block: 40px;
+}
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    width: 210px;
+    margin-bottom: 18px;
+}
+.phone{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 8px;
+}
+.address{
+    color: #94989e;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.footerNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navSection{
+    margin-bottom: 16px;
+}
+.footerNav h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.footerNav ul{
+    list-style-type: none;
+}
+.footerNav ul li{
+    font-size: 12px;
+    color:#94989e;
+    padding-bottom: 10px;
+}
+.footerNav ul li a{
+    color:#94989e;
+    font-size: 14px;
+}
+@media (min-width: 578px) {
+    .footerNav{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .navSection{
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .footerNav ul{
+        list-style-type: unset;
+    }
+}
+@media (min-width: 1200px) {
+    .footerNav{
+        flex-wrap: nowrap;
+    }
+    .footerContent{
+        flex-direction: row;
+    }
+    .footerContent > div{
+        flex-grow: 1;
+    }
+    .navSection{
+        flex-basis: 100%;
+    }
+}

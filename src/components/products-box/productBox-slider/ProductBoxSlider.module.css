@@ -1,0 +1,9 @@
+.productBoxSlider{
+    margin: 28px 0;
+}
+.sliderItem{
+    padding: 0 6px;
+    display: flex!important;
+    justify-content: center;
+    direction: rtl;
+}

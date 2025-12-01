@@ -1,0 +1,149 @@
+.HeaderDeskTop{
+    background-color: #DD2955;
+    display: none;
+}
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.batchingBtn{
+    color: white;
+    display: flex;
+    width: 100%;
+    background-color: #E24C71;
+    padding: 16px 8px;
+    border-radius: 8px;
+    max-width: 300px;
+    min-width: 204px;
+    flex: 1;
+    margin: 12px 0;
+    position: unset;
+}
+.batchingBurgerIcon ,.arrowDownIcon{
+    vertical-align: middle;
+    font-size: 22px;
+}
+.arrowDownIcon{
+    margin-right: auto;
+}
+.batchingTitle{
+    font-size: 16px;
+    margin-inline-start: 6px;
+}
+.dropDownItem{
+    border-bottom: 1px solid #e2e5eb
+}
+.dropDownItem a{
+    padding: 16px 12px;
+    display: flex;
+    color: #13172b;
+}
+.dropDownItemIcon{
+    vertical-align: middle;
+    font-size: 24px;
+    color:#838685;
+    margin-inline-end: 15px;
+}
+.dropDownItem:hover a{
+    color: #dd2955;
+}
+.dropDownItem:hover .dropDownItemIcon{
+    color:#dd2955;
+}
+@media (min-width: 1200px) {
+    .batchingBtn{
+        margin: 0;
+    }
+}
+
+
+
+.callWithUs{
+    text-align: right;
+    color: white;
+    display: none;
+}
+.callIcon{
+    border-radius: 50%;
+    background-color: #A864FF;
+    font-size: 30px;
+    padding: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.navbar li{
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar li,.navbar li a{
+    padding: 16px 12px;
+    color: white;
+}
+.navbar li:hover,.navbar li a:hover{
+    color: #EFEFEF;
+}
+.navbarIcon{
+    vertical-align: middle;
+    margin-inline-start: 5px;
+}
+.dropDownMenu{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dropDownMenu li{
+    border-bottom: 1px solid #e2e5eb
+}
+.dropDownMenu li:hover{
+    background-color: #EFF5F8;
+}
+.dropDownMenu li:hover a{
+    color:#DD2955;
+}
+.dropDownMenu li a{
+    color :#6A7285;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.dropDownMenu li a{
+    position: relative;
+    transition:0.5s
+}
+.dropDownMenu li a:before{
+    content: '';
+    width: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height: 1px;
+    background-color: #cdaa7c;
+    transition:0.5s
+}
+.dropDownMenu li:hover a:before{
+    width: 10px;
+}
+.dropDownMenu li:hover a {
+    padding-inline-start: 24px;
+}
+
+@media (min-width: 992px){
+    .HeaderDeskTop{
+        display: block;
+    }
+}
+@media (min-width: 1200px){
+    .navbar{
+        padding: 0 22px;
+    }
+    .callWithUs{
+        display: block;
+    }
+}
